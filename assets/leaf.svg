@@ -1,0 +1,60 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="leafMain" x1="152" y1="136" x2="362" y2="376" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9F35F"/>
+      <stop offset="1" stop-color="#79BE68"/>
+    </linearGradient>
+
+    <linearGradient id="leafSoft" x1="210" y1="180" x2="324" y2="344" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4F9E7"/>
+      <stop offset="1" stop-color="#CFE7C7"/>
+    </linearGradient>
+
+    <filter id="shadow" x="54" y="58" width="404" height="398" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0B3029" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="78" y="78" width="356" height="356" rx="92" fill="#174F43"/>
+    <rect x="104" y="104" width="304" height="304" rx="72" fill="#103D34"/>
+
+    <path d="M352 155C318 159 281 170 248 191C201 221 173 263 168 313C207 321 250 313 289 287C334 257 361 213 352 155Z"
+          fill="url(#leafMain)"/>
+
+    <path d="M306 177C285 187 263 201 244 219C216 245 194 276 182 311C216 304 248 288 274 264C300 239 319 209 329 177H306Z"
+          fill="url(#leafSoft)"
+          opacity="0.5"/>
+
+    <path d="M183 331C219 290 260 251 318 205"
+          stroke="#F7F8F5"
+          stroke-width="12"
+          stroke-linecap="round"/>
+
+    <path d="M221 295C223 270 218 248 207 228"
+          stroke="#F7F8F5"
+          stroke-width="9"
+          stroke-linecap="round"
+          opacity="0.88"/>
+
+    <path d="M257 262C262 240 261 219 255 202"
+          stroke="#F7F8F5"
+          stroke-width="9"
+          stroke-linecap="round"
+          opacity="0.88"/>
+
+    <path d="M285 237C307 235 326 229 342 220"
+          stroke="#F7F8F5"
+          stroke-width="9"
+          stroke-linecap="round"
+          opacity="0.88"/>
+
+    <path d="M245 279C264 283 282 282 299 277"
+          stroke="#F7F8F5"
+          stroke-width="9"
+          stroke-linecap="round"
+          opacity="0.88"/>
+
+    <circle cx="256" cy="118" r="17" fill="#D9F35F"/>
+  </g>
+</svg>

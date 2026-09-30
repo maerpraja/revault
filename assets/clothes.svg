@@ -1,0 +1,48 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shirtGradient" x1="156" y1="112" x2="372" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9F35F"/>
+      <stop offset="1" stop-color="#8CCB73"/>
+    </linearGradient>
+
+    <linearGradient id="shirtShade" x1="220" y1="132" x2="310" y2="370" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2F8E0"/>
+      <stop offset="1" stop-color="#CFE5C9"/>
+    </linearGradient>
+
+    <filter id="shadow" x="54" y="66" width="404" height="390" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0B3029" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="78" y="78" width="356" height="356" rx="92" fill="#174F43"/>
+    <rect x="104" y="104" width="304" height="304" rx="72" fill="#103D34"/>
+
+    <path d="M205 142C218 157 236 165 256 165C276 165 294 157 307 142L367 171C382 178 389 196 382 211L358 259L326 244V365C326 378 316 388 303 388H209C196 388 186 378 186 365V244L154 259L130 211C123 196 130 178 145 171L205 142Z"
+          fill="url(#shirtGradient)"/>
+
+    <path d="M218 151C228 160 241 165 256 165C271 165 284 160 294 151C291 180 278 199 256 199C234 199 221 180 218 151Z"
+          fill="#F7F8F5"/>
+
+    <path d="M222 225C241 237 271 237 290 225V331C290 344 279 355 266 355H246C233 355 222 344 222 331V225Z"
+          fill="url(#shirtShade)"
+          opacity="0.32"/>
+
+    <path d="M166 187L200 170L186 244L161 256L146 222C141 211 146 198 157 193L166 187Z"
+          fill="#7FBF6B"
+          opacity="0.65"/>
+
+    <path d="M346 187L312 170L326 244L351 256L366 222C371 211 366 198 355 193L346 187Z"
+          fill="#7FBF6B"
+          opacity="0.65"/>
+
+    <path d="M232 280C246 289 266 289 280 280"
+          stroke="#174F43"
+          stroke-width="10"
+          stroke-linecap="round"
+          opacity="0.85"/>
+
+    <circle cx="256" cy="116" r="18" fill="#D9F35F"/>
+  </g>
+</svg>
